@@ -1,3 +1,3 @@
 # dynamic_background
 
-A new Flutter project.
+An app that generates new random colors on tap on anywhere on the screen.
