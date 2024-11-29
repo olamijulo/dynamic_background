@@ -1,0 +1,34 @@
+name: dynamic_background
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  riverpod: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  solid_lints: ^0.2.3
+
+flutter:
+  uses-material-design: true
+
+fonts:
+    - family: Euclid Circular
+      fonts:
+        - asset: assets/fonts/Euclid_Circular_A_Regular.ttf
+        - asset: assets/fonts/Euclid_Circular_A_Light.ttf
+          weight: 100
+        - asset: assets/fonts/Euclid_Circular_A_Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Euclid_Circular_A_SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Euclid_Circular_A_Bold.ttf
+          weight: 700
