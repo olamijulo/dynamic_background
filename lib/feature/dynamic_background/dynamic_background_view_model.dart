@@ -22,6 +22,7 @@ class DynamicBackgroundViewModel extends ChangeNotifier {
   Color backgroundColor = const Color.fromRGBO(250, 250, 250, 1.0);
 
   /// This serves as the default color value to be displayed in the ColorWidget
+  /// It changes the color changes
   String colorValue = 'RGB(255, 255, 255)';
 
   /// This serves a list for storing the history of generated colors
